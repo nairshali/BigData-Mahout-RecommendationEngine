@@ -1,5 +1,5 @@
 # BIgData-Mahout-RecommendationEngine
-Mahout Recommendation Engine
+Mahout Analytics Automatic Recommendation Engine
 
 
 # Design
