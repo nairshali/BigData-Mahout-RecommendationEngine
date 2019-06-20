@@ -20,7 +20,7 @@ Mahout Recommendation Engine
 --Another important part of user-based recommenders is the User Similarity implementation
 •	PearsonCorrelationSimilarity implementation, which is a similarity metric based on the Pearson correlation. The Pearson correlation is a number between –1 and 1 that measures the tendency of two series of numbers, paired up one-to-one, to move together. That is to say, it measures how likely a number in one series is to be relatively large when the corresponding number in the other series is high, and vice versa. It measures the tendency of the numbers to move together proportionally, such that there’s a roughly linear relationship between the values in one series and the other. When this tendency is high, the correlation is close to 1. When there appears to be little relationship at all, the value is near 0. When there appears to be an opposing relationship—one series’ numbers are high exactly when the other series’ numbers are low—the value is near –1.[4].
 
-#Alternative approach
+# Alternative approach
 •	All the 4 similarity measures (Spearman Correlation, Euclidean distance, Tanimoto Co-efficient, Log Likelihood) are used and tested with the newly generated trust file along with the Pearson Correlation method which is used in the study. Results of all the algorithms are compared in the results section.
 •	 All the 5 similarities are used and tested with only the user rating file, without the trust relation file. Results are marked and compared in the results section.
 ## Defining similarity by Euclidean distance 
